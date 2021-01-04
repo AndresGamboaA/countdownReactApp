@@ -1,0 +1,150 @@
+.add-event-popup {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: anim2;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+.active {
+    visibility: visible;
+    animation-name: anim;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes anim {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes anim2 {
+    from {
+        visibility: visible;
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.glass {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.99);
+    position: fixed;
+    z-index: 2;
+    opacity: 0.5;
+}
+
+.container {
+    opacity: 0;
+    z-index: 3;
+    height: 250px;
+    width: 300px;
+    background: rgb(114, 114, 114);
+    background: linear-gradient(0deg, rgba(128,128,128,1) 0%, rgba(0,0,0,1) 0%, rgba(48,48,48,1) 100%);
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 5px;
+    box-shadow: 0px 0px 16pc 0px rgba(0,0,0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation-name: close;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+.container-active {
+    opacity: 1;
+    height: 250px;
+    animation-name: open;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    transition: all 0.5s;
+}
+
+@keyframes open {
+    from {
+        opacity: 0;
+        transform: translate(0px, 100px);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes close {
+    from {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+    to {
+        opacity: 0;
+        transform: translate(0px, 100px);
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+input {
+    padding: 5px;
+    width: 250px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+input:focus {
+    background: transparent;
+    outline: none;
+}
+
+hr {
+    margin-top: 10px;
+    background-color: rgb(77, 77, 77);
+    border: none;
+    height: 2px;
+    width: 300px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container button {
+    width: 90px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    visibility: visible;
+    color: white;
+}
+
+.container button:hover {
+    background-color: gray;
+    color: black;
+}
