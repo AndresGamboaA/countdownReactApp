@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/countdownReactApp/static/css/main.19b3c969.chunk.css",
+    "main.css": "/countdownReactApp/static/css/main.f226e3ee.chunk.css",
     "main.js": "/countdownReactApp/static/js/main.188f52c3.chunk.js",
     "main.js.map": "/countdownReactApp/static/js/main.188f52c3.chunk.js.map",
     "runtime-main.js": "/countdownReactApp/static/js/runtime-main.688f8770.js",
@@ -8,15 +8,15 @@
     "static/js/2.e459ac7c.chunk.js": "/countdownReactApp/static/js/2.e459ac7c.chunk.js",
     "static/js/2.e459ac7c.chunk.js.map": "/countdownReactApp/static/js/2.e459ac7c.chunk.js.map",
     "index.html": "/countdownReactApp/index.html",
-    "precache-manifest.279d949cba5a464873ecab3c2aff0716.js": "/countdownReactApp/precache-manifest.279d949cba5a464873ecab3c2aff0716.js",
+    "precache-manifest.e01d13478a404d4f2e491ebb4e7308fa.js": "/countdownReactApp/precache-manifest.e01d13478a404d4f2e491ebb4e7308fa.js",
     "service-worker.js": "/countdownReactApp/service-worker.js",
-    "static/css/main.19b3c969.chunk.css.map": "/countdownReactApp/static/css/main.19b3c969.chunk.css.map",
+    "static/css/main.f226e3ee.chunk.css.map": "/countdownReactApp/static/css/main.f226e3ee.chunk.css.map",
     "static/js/2.e459ac7c.chunk.js.LICENSE.txt": "/countdownReactApp/static/js/2.e459ac7c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.688f8770.js",
     "static/js/2.e459ac7c.chunk.js",
-    "static/css/main.19b3c969.chunk.css",
+    "static/css/main.f226e3ee.chunk.css",
     "static/js/main.188f52c3.chunk.js"
   ]
 }
